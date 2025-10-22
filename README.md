@@ -1,43 +1,48 @@
-# 🔍 Template Matching (Casamento de Modelo) em Visão Computacional
+# Template Matching (Casamento de Modelo) em Visão Computacional
 
-Template Matching é uma técnica fundamental em Processamento de Imagens e Visão Computacional usada para **localizar a ocorrência de uma pequena imagem (o *template* ou modelo) dentro de uma imagem maior (a imagem de entrada/origem).**
+O Template Matching (ou Casamento de Modelo) é uma técnica fundamental em Processamento de Imagens e Visão Computacional. Seu objetivo é **localizar a ocorrência de uma pequena imagem, chamada *template* (ou modelo), dentro de uma imagem maior, que é a imagem de entrada ou origem.**
+
+## Grupo:
+* Antonio Carlos Sciamarelli Neto - 10409160
+* Gustavo Matta - 10410154
+* Joaquim Rafael Mariano Prieto Pereira - 10408805
+* Lucas Trebacchetti Eiras - 10401973
 
 ---
 
-## 💡 Como Funciona
+## Como Funciona
 
-O processo de Template Matching utiliza a técnica de **janela deslizante** (ou *sliding window*):
+O processo de Template Matching utiliza a abordagem de **janela deslizante** (*sliding window*):
 
-1.  **Template:** Uma pequena imagem de referência (o modelo) que se deseja encontrar.
-2.  **Deslizamento:** O algoritmo move o *template* para cada posição possível sobre a imagem de entrada.
-3.  **Comparação:** Em cada posição, uma **métrica de similaridade** é calculada para medir o quão parecido é o *template* com a região da imagem que ele cobre.
-4.  **Mapa de Resultados:** Os resultados das comparações são armazenados em uma matriz (o **Mapa de Correlação**).
-5.  **Localização:** O ponto no Mapa de Resultados com o valor **máximo** (para correlação) ou **mínimo** (para diferença) indica a melhor correspondência na imagem original.
+1.  **Template:** Define-se a pequena imagem de referência (o modelo) que se deseja encontrar.
+2.  **Deslizamento:** O algoritmo "desliza" o template por toda a imagem de entrada, posição por posição.
+3.  **Comparação:** Em cada posição, uma **métrica de similaridade** é calculada para medir o quão parecida é a região da imagem coberta pelo template com o próprio template.
+4.  **Mapa de Resultados:** Os resultados dessas comparações são armazenados em uma matriz, conhecida como **Mapa de Correlação**.
+5.  **Localização:** O ponto nessa matriz que apresenta o valor **máximo** (em métodos de correlação) ou **mínimo** (em métodos de diferença) indica a localização da melhor correspondência na imagem original.
 
-## 📐 Métricas de Similaridade Comuns
+## Métricas de Similaridade Comuns
 
-O cálculo da similaridade é crucial. As métricas mais utilizadas caem em duas categorias:
+O cálculo da similaridade é um passo crucial. As métricas mais utilizadas se dividem em duas categorias principais:
 
 | Método | Tipo | Conceito Chave | O que indica o Melhor Match |
 | :--- | :--- | :--- | :--- |
 | **Correlação Cruzada Normalizada (NCC)** | Similaridade | Mede o quão bem as intensidades de pixels correspondem. É robusta a brilho. | **Valor Mais Alto** ($\approx 1$) |
 | **Soma das Diferenças ao Quadrado (SSD)** | Dissimilaridade | Calcula a soma das diferenças quadráticas dos pixels. | **Valor Mais Baixo** ($\approx 0$) |
 
-## 🚀 Vantagens e Limitações
+## Vantagens e Limitações
 
 | Vantagens | Limitações Principais |
 | :--- | :--- |
-| ✅ Simplicidade de implementação. | ❌ **Não Invariante** à Escala (Tamanho). |
-| ✅ Rápido para templates pequenos e bem definidos. | ❌ **Não Invariante** à Rotação (Ângulo). |
-| ✅ Oferece localização precisa (em nível de pixel). | ❌ Sensível a grandes mudanças de iluminação e oclusão. |
+| Simplicidade de implementação. | **Não Invariante** à Escala (Tamanho). |
+| Rápido para templates pequenos e bem definidos. | **Não Invariante** à Rotação (Ângulo). |
+| Oferece localização precisa (em nível de pixel). | Sensível a grandes mudanças de iluminação e oclusão. |
 
-Para lidar com escala e rotação, são usadas variações mais robustas, como o Template Matching **Multi-Escala** ou abordagens **Baseadas em Características**.
+Para superar as limitações de escala e rotação, utilizam-se variações mais robustas da técnica, como o Template Matching **Multi-Escala** ou abordagens **Baseadas em Características** (Feature-Based).
 
 ---
 
-### **Aplicações**
+### Aplicações
 
 * Controle de qualidade e inspeção industrial.
 * Rastreamento de objetos simples em tempo real.
 * Automação de interfaces (*screen matching*).
-
