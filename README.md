@@ -46,3 +46,8 @@ Para superar as limitações de escala e rotação, utilizam-se variações mais
 * Controle de qualidade e inspeção industrial.
 * Rastreamento de objetos simples em tempo real.
 * Automação de interfaces (*screen matching*).
+
+### Compilação do Código
+
+* Compilar: gcc template_matching.c -o match -lm
+* Executar: ./match
