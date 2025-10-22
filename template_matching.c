@@ -1,3 +1,15 @@
+/*
+Grupo:
+
+Antonio Carlos Sciamarelli Neto - 10409160
+Gustavo Matta - 10410154
+Joaquim Rafael Mariano Prieto Pereira - 10408805
+Lucas Trebacchetti Eiras - 10401973
+
+Projeto de Template Matching usando Normalized Cross-Correlation (NCC)
+Computacao Visual - 2025/2 - 07N - Projeto 2
+*/
+
 #include <stdio.h>
 #include <stdlib.h>
 #include <math.h>
