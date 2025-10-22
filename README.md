@@ -51,3 +51,7 @@ Para superar as limitações de escala e rotação, utilizam-se variações mais
 
 * Compilar: gcc template_matching.c -o match -lm
 * Executar: ./match
+
+### Apresentação
+
+* Link da apresentação referente a template matching: https://prezi.com/view/rfTVyZB4yTKFcD2ugYbS/?referral_token=yiB7C2lnB3FN
