@@ -1,0 +1,9 @@
+Referências Bibliográficas
+
+Livro: BRUNELLI, Roberto. Template matching techniques in computer vision: theory and practice. Chichester: John Wiley & Sons, 2009.
+
+Documentação OpenCV (Página Web): OPENCV. Template Matching. [S.l.: s.n.], [20--?]. Disponível em: https://docs.opencv.org/4.x/d4/dc6/tutorial_py_template_matching.html. Acesso em: 20 out. 2025.
+
+Documento PDF (USP): KIM, Hae Yong. Processamento Digital de Imagens: Template Matching. São Paulo: Laboratório de Processamento de Sinais, Escola Politécnica da USP, 2013. Disponível em: http://www.lps.usp.br/hae/apostila/tmatch-ead.pdf. Acesso em: 22 out. 2025.
+
+Tópico ScienceDirect (Página Web): TEMPLATE Matching. In: SCIENCE DIRECT. [S.l.]: Elsevier, [20--?]. Disponível em: https://www.sciencedirect.com/topics/engineering/template-matching. Acesso em: 18 out. 2025.
