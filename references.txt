@@ -6,4 +6,10 @@ Documentação OpenCV (Página Web): OPENCV. Template Matching. [S.l.: s.n.], [2
 
 Documento PDF (USP): KIM, Hae Yong. Processamento Digital de Imagens: Template Matching. São Paulo: Laboratório de Processamento de Sinais, Escola Politécnica da USP, 2013. Disponível em: http://www.lps.usp.br/hae/apostila/tmatch-ead.pdf. Acesso em: 22 out. 2025.
 
-Tópico ScienceDirect (Página Web): TEMPLATE Matching. In: SCIENCE DIRECT. [S.l.]: Elsevier, [20--?]. Disponível em: https://www.sciencedirect.com/topics/engineering/template-matching. Acesso em: 18 out. 2025.
+Tópico ScienceDirect (Artigo): TEMPLATE Matching. In: SCIENCE DIRECT. [S.l.]: Elsevier, [20--?]. Disponível em: https://www.sciencedirect.com/topics/engineering/template-matching. Acesso em: 18 out. 2025.
+
+Documentação Hexdocs (Página Web): HEXDOCS. StbImage (stb_image v0.6.1). [S.l.: s.n.], [20--?]. Disponível em: https://hexdocs.pm/stb_image/StbImage.html. Acesso em: 21 out. 2025.
+
+Arquivo stb_image_write.h: NOTHINGS. stb_image_write.h: stb single-file public domain image writer. [S.l.]: GitHub, [20--?]. Disponível em: https://github.com/nothings/stb/blob/master/stb_image_write.h. Acesso em: 20 out. 2025.
+
+Arquivo stb_image.h: NOTHINGS. stb_image.h: stb single-file public domain image loader. [S.l.]: GitHub, [20--?]. Disponível em: https://github.com/nothings/stb/blob/master/stb_image.h. Acesso em: 20 out. 2025.
