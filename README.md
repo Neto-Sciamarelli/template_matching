@@ -1,4 +1,4 @@
-<img width="591" height="119" alt="image" src="https://github.com/user-attachments/assets/0281cdee-5b21-4c75-af34-397964dbf336" /># Template Matching (Casamento de Modelo) em Visão Computacional
+# Template Matching (Casamento de Modelo) em Visão Computacional
 
 O Template Matching (ou Casamento de Modelo) é uma técnica fundamental em Processamento de Imagens e Visão Computacional. Seu objetivo é **localizar a ocorrência de uma pequena imagem, chamada *template* (ou modelo), dentro de uma imagem maior, que é a imagem de entrada ou origem.**
 
